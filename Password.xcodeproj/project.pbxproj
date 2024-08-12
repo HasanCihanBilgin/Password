@@ -14,6 +14,8 @@
 		D65EDCE12C692F9500FF0A5C /* PasswordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EDCE02C692F9500FF0A5C /* PasswordTests.swift */; };
 		D65EDCEB2C692F9500FF0A5C /* PasswordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EDCEA2C692F9500FF0A5C /* PasswordUITests.swift */; };
 		D65EDCED2C692F9500FF0A5C /* PasswordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EDCEC2C692F9500FF0A5C /* PasswordUITestsLaunchTests.swift */; };
+		D65EDCFB2C692FDC00FF0A5C /* PasswordChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EDCFA2C692FDC00FF0A5C /* PasswordChangeView.swift */; };
+		D65EDCFD2C692FF500FF0A5C /* PasswordRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EDCFC2C692FF500FF0A5C /* PasswordRulesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		D65EDCE62C692F9500FF0A5C /* PasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65EDCEA2C692F9500FF0A5C /* PasswordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordUITests.swift; sourceTree = "<group>"; };
 		D65EDCEC2C692F9500FF0A5C /* PasswordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D65EDCFA2C692FDC00FF0A5C /* PasswordChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChangeView.swift; sourceTree = "<group>"; };
+		D65EDCFC2C692FF500FF0A5C /* PasswordRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordRulesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		D65EDCCE2C692F9300FF0A5C /* Password */ = {
 			isa = PBXGroup;
 			children = (
+				D65EDCF92C692FC400FF0A5C /* PasswordChange */,
 				D65EDCCF2C692F9300FF0A5C /* PasswordApp.swift */,
 				D65EDCD12C692F9300FF0A5C /* ContentView.swift */,
 				D65EDCD32C692F9500FF0A5C /* Assets.xcassets */,
@@ -125,6 +130,15 @@
 				D65EDCEC2C692F9500FF0A5C /* PasswordUITestsLaunchTests.swift */,
 			);
 			path = PasswordUITests;
+			sourceTree = "<group>";
+		};
+		D65EDCF92C692FC400FF0A5C /* PasswordChange */ = {
+			isa = PBXGroup;
+			children = (
+				D65EDCFA2C692FDC00FF0A5C /* PasswordChangeView.swift */,
+				D65EDCFC2C692FF500FF0A5C /* PasswordRulesView.swift */,
+			);
+			path = PasswordChange;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +273,8 @@
 			files = (
 				D65EDCD22C692F9300FF0A5C /* ContentView.swift in Sources */,
 				D65EDCD02C692F9300FF0A5C /* PasswordApp.swift in Sources */,
+				D65EDCFB2C692FDC00FF0A5C /* PasswordChangeView.swift in Sources */,
+				D65EDCFD2C692FF500FF0A5C /* PasswordRulesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
